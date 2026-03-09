@@ -28,9 +28,9 @@ Lab Setup
    Ip configuration:
    | Device | IP Address |
    |--------|------------|
-   | Windows Server | IP Address |
-   | Windows Client | IP Address |
-   | Ubuntu Server | IP Address |
+   | Windows Server | 192.168.10.10 |
+   | Windows Client | 192.168.10.20 |
+   | Ubuntu Server | 192.168.10.30 |
 
  
 5. Windows Server Installation:

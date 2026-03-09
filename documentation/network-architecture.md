@@ -24,19 +24,21 @@ Role: Linux Administration Practice
 All virtual machines communicate within the same VMware virtual network.
 
 3. Network Configuration
+
 | Component | Configuration |
 |-----------|---------------|
 |Network Type| VMware NAT / Host-Only |
 | Subnet | 192.168.10.0/24 |
 | Gateway | 192.168.10.1 |
 | DNS Server | 192.168.10.10 (Windows Server) |
+
 4. IP Address Allocation
 
 | Device | IP Address | Function |
 |--------|------------|----------|
-| Windows Server | 192.168.10.10	Domain Controller & DNS |
-| Windows Client | 192.168.10.20	Domain-joined workstation |
-| Ubuntu Server | 192.168.10.30	Linux server |
+| Windows Server | 192.168.10.10| Domain Controller & DNS |
+| Windows Client | 192.168.10.20| Domain-joined workstation |
+| Ubuntu Server | 192.168.10.30	| Linux server |
 
 Static IP addressing is used to ensure consistent communication between servers and clients.
 

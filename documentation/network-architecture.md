@@ -6,7 +6,8 @@ The lab includes a domain controller, client machine, and Linux server connected
 
 2. Network Topology
   The following diagram represents the logical structure of the lab network.
-  | Machine | Operating System | Role | IP Address | Services |
+
+| Machine | Operating System | Role | IP Address | Services |
 |--------|-----------------|------|-----------|----------|
 | Host Machine | Windows 11 | Virtualization Host | - | VMware Workstation |
 | Windows Server | Windows Server 2022 | Domain Controller | 192.168.10.10 | Active Directory, DNS |

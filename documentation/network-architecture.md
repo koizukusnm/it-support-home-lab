@@ -26,7 +26,12 @@ Host Machine (Windows 11)
 └── Ubuntu 24.04 Server
     └── IP: 192.168.10.30
 ```
-
+```mermaid
+graph TD
+A[Host Machine - Windows 11] --> B[Windows Server 2022<br>192.168.10.10<br>AD + DNS]
+A --> C[Windows 11 Client<br>192.168.10.20]
+A --> D[Ubuntu 24.04 Server<br>192.168.10.30]
+```
 
 All virtual machines communicate within the same VMware virtual network.
 

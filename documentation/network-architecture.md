@@ -6,6 +6,23 @@ The lab includes a domain controller, client machine, and Linux server connected
 
 2. Network Topology
   The following diagram represents the logical structure of the lab network.
+  | Machine | Operating System | Role | IP Address | Services |
+|--------|-----------------|------|-----------|----------|
+| Host Machine | Windows 11 | Virtualization Host | - | VMware Workstation |
+| Windows Server | Windows Server 2022 | Domain Controller | 192.168.10.10 | Active Directory, DNS |
+| Windows 11 Client | Windows 11 | Domain User Workstation | 192.168.10.20 | Domain Login Testing |
+| Ubuntu Server | Ubuntu 24.04 LTS | Linux Administration Practice | 192.168.10.30 | SSH, Linux Management |
+
+Host Machine (Windows 11)
+│
+├── Windows Server 2022 (Domain Controller)
+│   └── IP: 192.168.10.10
+│
+├── Windows 11 Client
+│   └── IP: 192.168.10.20
+│
+└── Ubuntu 24.04 Server
+    └── IP: 192.168.10.30
 
 Host Machine (Windows 11)
 │

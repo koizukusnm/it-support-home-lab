@@ -27,19 +27,6 @@ Host Machine (Windows 11)
     └── IP: 192.168.10.30
 ```
 
-Host Machine (Windows 11)
-│
-├── Windows Server 2022 (Domain Controller)
-│ IP: 192.168.10.10
-│ Services: Active Directory, DNS
-│
-├── Windows 11 Client
-│ IP: 192.168.10.20
-│ Role: Domain User Workstation
-│
-└── Ubuntu 24.04 Server
-IP: 192.168.10.30
-Role: Linux Administration Practice
 
 All virtual machines communicate within the same VMware virtual network.
 

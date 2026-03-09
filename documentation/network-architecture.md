@@ -14,18 +14,7 @@ The lab includes a domain controller, client machine, and Linux server connected
 | Windows 11 Client | Windows 11 | Domain User Workstation | 192.168.10.20 | Domain Login Testing |
 | Ubuntu Server | Ubuntu 24.04 LTS | Linux Administration Practice | 192.168.10.30 | SSH, Linux Management |
 
-```
-Host Machine (Windows 11)
-│
-├── Windows Server 2022 (Domain Controller)
-│   └── IP: 192.168.10.10
-│
-├── Windows 11 Client
-│   └── IP: 192.168.10.20
-│
-└── Ubuntu 24.04 Server
-    └── IP: 192.168.10.30
-```
+
 ```mermaid
 graph TD
 A[Host Machine - Windows 11] --> B[Windows Server 2022<br>192.168.10.10<br>AD + DNS]

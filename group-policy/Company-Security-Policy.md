@@ -10,6 +10,8 @@
 2. Edited GPO to:
    - Disable Control Panel
    - Account Lockout Policy
+   - Set Password Complexity
+   - Account Lockout Policy
 3. Linked GPO to **IT OU**
 4. Tested on client machine with `gpupdate /force`
 5. Verified policies with `rsop.msc` and `gpresult /r`

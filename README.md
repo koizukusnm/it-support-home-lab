@@ -1,44 +1,56 @@
 # IT Support Home Lab
-IT Support Home Lab built using **VMware, Windows Server, Ubuntu, and Windows 11** for security monitoring and troubleshooting practice.
+
+IT Support Home Lab built using **VMware, Windows Server, Ubuntu, and Windows 11** for security monitoring, Active Directory, and troubleshooting practice.
+
+---
 
 ## Overview
 
-This repository contains hands-on labs and documentation from my **IT Support Home Lab**, including:
+This repository contains hands-on labs and documentation from my **IT Support Home Lab**, simulating a small enterprise IT environment. The lab environment includes:
 
-- **Active Directory & Domain Setup**  
-- **Group Policy Practice**  
-- **Windows 11 & Server Configuration**  
-- **Ubuntu Server Installation & Administration**  
-- **Network Configuration & Security Monitoring**
+- **Windows Server 2022** as Domain Controller and DNS server  
+- **Windows 11 clients** joined to the domain  
+- **Ubuntu 24.04 LTS server** for Linux administration practice  
+- VMware virtual networking simulating a small enterprise network  
+
+All labs are documented with Markdown files and screenshots for clarity and portfolio presentation.
 
 ---
 
-## Group Policy Lab
+## Lab Documentation
 
-This lab demonstrates the creation and application of a **Group Policy Object (GPO)** in a Windows domain environment.
+- **Lab Setup & Network Architecture**  
+  - [`lab-setup.md`](documentation/lab-setup.md) – Overview, host specs, VM configuration, network setup, installation steps, and lab purpose  
+  - [`network-architecture.md`](documentation/network-architecture.md) – Network topology, IP configuration, connectivity testing, and security considerations
 
-**Lab Details:**  
+- **Active Directory Users & Workstations**  
+  - [`Active-Directory-users-workstations.md`](documentation/Active-Directory-users-workstations.md) – Domain setup, OUs for IT, Finance, HR, and user/workstation management
 
-- Created a **Company-Security-Policy GPO** in `corp.local` domain.  
-- Restricted **Control Panel** and **Command Prompt** for domain users.  
-- Configured **Password Policy** and **Account Lockout Policy**.  
-- Linked the GPO to the **IT OU**.  
-- Tested and verified on a **Windows 11 client VM**.
+- **Group Policy Lab**  
+  - [`group-policy/Company-Security-Policy.md`](group-policy/Company-Security-Policy.md) – Step-by-step GPO creation, restrictions, password policy, account lockout, and testing  
+  - Screenshots: [`group-policy/screenshots/`](group-policy/screenshots/)
 
-**Files:**  
+---
 
-- [`group-policy/Company-Security-Policy.md`](group-policy/Company-Security-Policy.md) → Step-by-step instructions.  
-- [`group-policy/screenshots/`](group-policy/screenshots/) → Screenshots showing GPO creation and testing.
-
-**Skills Demonstrated:**  
+## Skills Demonstrated
 
 - Active Directory and Group Policy configuration  
-- Policy enforcement and testing on client machines  
-- Documentation and lab organization for portfolio
+- Windows Server and Windows 11 administration  
+- Ubuntu server installation and Linux administration  
+- Network setup, IP addressing, and connectivity testing  
+- Documentation and portfolio organization
 
 ---
 
+## Virtual Home Lab Folder Structure
 
-## Notes
-
-All labs were completed using **virtual machines on VMware Workstation**. This lab environment is designed for **IT support and system administration skill development**, and can be used as a portfolio for prospective employers.
+```text
+it-support-home-lab/
+ ├─ README.md
+ ├─ documentation/
+ │    ├─ lab-setup.md
+ │    ├─ network-architecture.md
+ │    └─ Active-Directory-users-workstations.md
+ └─ group-policy/
+      ├─ Company-Security-Policy.md
+      └─ screenshots

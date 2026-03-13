@@ -29,7 +29,8 @@ All labs are documented with Markdown files and screenshots for clarity and port
 - **Group Policy Lab**  
   - [`group-policy/Company-Security-Policy.md`](group-policy/Company-Security-Policy.md) – Step-by-step GPO creation, restrictions, password policy, account lockout, and testing  
   - Screenshots: [`group-policy/screenshots/`](group-policy/screenshots/)
-
+- **Troubleshooting & Common Errors**  
+  - [`troubleshooting/errors.md`](troubleshooting/errors.md) – Documentation of errors encountered during lab setup and practical solutions
 ---
 
 ## Skills Demonstrated

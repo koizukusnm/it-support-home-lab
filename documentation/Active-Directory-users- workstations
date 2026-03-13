@@ -14,7 +14,7 @@ Organizational Unit Structure
 
 OU Structure:
 
-  ```mermaid
+```mermaid
 graph TD
     A[Domain: corp.local]
 

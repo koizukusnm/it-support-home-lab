@@ -27,7 +27,7 @@ All labs are documented with Markdown files and screenshots for clarity and port
   - [`Active-Directory-users-workstations.md`](documentation/Active-Directory-users-workstations.md) – Domain setup, OUs for IT, Finance, HR, and user/workstation management
 
 - **Group Policy Lab**  
-  - [`group-policy/Company-Security-Policy.md`](group-policy/Company-Security-Policy.md) – Step-by-step GPO creation, restrictions, password policy, account lockout, and testing  
+  - [`group-policy/Company-Security-Policy.md`](group-policy/Company-Security-Policy.md) – High-level GPO overview with security restrictions, password and account lockout policies, and   verification
   - Screenshots: [`group-policy/screenshots/`](group-policy/screenshots/)
 - **Troubleshooting & Common Errors**  
   - [`troubleshooting/errors.md`](troubleshooting/errors.md) – Documentation of errors encountered during lab setup and practical solutions
@@ -46,12 +46,15 @@ All labs are documented with Markdown files and screenshots for clarity and port
 ## Virtual Home Lab Folder Structure
 
 ```text
-it-support-home-lab/
- ├─ README.md
- ├─ documentation/
- │    ├─ lab-setup.md
- │    ├─ network-architecture.md
- │    └─ Active-Directory-users-workstations.md
- └─ group-policy/
-      ├─ Company-Security-Policy.md
-      └─ screenshots
+📂 it-support-home-lab
+├─ 📄 README.md
+├─ 📂 documentation
+│   ├─ 📄 lab-setup.md
+│   ├─ 📄 network-architecture.md
+│   └─ 📄 Active-Directory-users-workstations.md
+├─ 📂 group-policy
+│   ├─ 📄 Company-Security-Policy.md
+│   └─ 📂 screenshots
+└─ 📂 troubleshooting
+    └─ 📄 errors.md
+

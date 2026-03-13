@@ -15,7 +15,7 @@ Organizational Unit Structure
 OU Structure:
 
 ```mermaid
-flowchart TD
+graph TD
     A[corp.local]
 
     A --> B[IT OU]

@@ -14,25 +14,24 @@ Organizational Unit Structure
 
 OU Structure:
 
-```mermaid
-flowchart TD
-    A[Domain: corp.local]
-
-    A --> B[OU: IT]
-    B --> B1[User: it_admin]
-    B --> B2[User: it_support]
-
-    A --> C[OU: Finance]
-    C --> C1[User: Finance User]
-
-    A --> D[OU: HR]
-    D --> D1[User: HR Manager]
-
-    A --> E[OU: Workstations]
-    E --> E1[Computer: WIN11-CLIENT01]
-
-    A --> F[OU: Servers]
-    F --> F1[Server: DC01]
+```
+corp.local
+│
+├── IT
+│   ├── it_admin
+│   └── it_support
+│
+├── Finance
+│   └── finance_user1
+│
+├── HR
+│   └── hr_user1
+│
+├── Workstations
+│   └── WIN11-CLIENT01
+│
+└── Servers
+    └── DC01
 ```
 
  Each Department can cotain its own users, groups, and computers. This allows administrators to apply different Group Policies and permissions to each department.

@@ -34,6 +34,7 @@ graph TD
     A --> F[OU: Servers]
     F --> F1[Server: DC01]
 ```
+
  Each Department can cotain its own users, groups, and computers. This allows administrators to apply different Group Policies and permissions to each department.
 
   Using Organizational Units allows centralized management of users and simplifies administrative tasks in enterprise environments.

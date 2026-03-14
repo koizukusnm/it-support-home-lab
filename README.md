@@ -29,8 +29,12 @@ All labs are documented with Markdown files and screenshots for clarity and port
 - **Group Policy Lab**  
   - [`group-policy/Company-Security-Policy.md`](group-policy/Company-Security-Policy.md) – High-level GPO overview with security restrictions, password and account lockout policies, and   verification
   - Screenshots: [`group-policy/screenshots/`](group-policy/screenshots/)
+- **IT Support Troubleshooting**  
+  - **Scenario 1 – Domain Login Failure:** [`IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure`](IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/)  
+    - Contains the incident report Markdown and all associated screenshots
 - **Troubleshooting & Common Errors**  
   - [`troubleshooting/errors.md`](troubleshooting/errors.md) – Documentation of errors encountered during lab setup and practical solutions
+  
 ---
 
 ## Skills Demonstrated

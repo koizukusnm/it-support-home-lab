@@ -30,10 +30,14 @@ All labs are documented with Markdown files and screenshots for clarity and port
   - [`group-policy/Company-Security-Policy.md`](group-policy/Company-Security-Policy.md) – High-level GPO overview with security restrictions, password and account lockout policies, and   verification
   - Screenshots: [`group-policy/screenshots/`](group-policy/screenshots/)
 - **IT Support Troubleshooting**  
-  - **Scenario 1 – Domain Login Failure:** [`IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure`](IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/)  
-    - Contains the incident report Markdown and all associated screenshots
+  - **Scenario 1 – Domain Login Failure:**
+    - [`IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure`](IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/) -Incident where a domain user could not log in due to a disabled account. Covers troubleshooting in Active Directory, Event Viewer analysis, account restoration, and verification of successful login. 
+    - Screenshots: [`IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/screenshots`](IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/screenshots) 
 - **Troubleshooting & Common Errors**  
   - [`troubleshooting/errors.md`](troubleshooting/errors.md) – Documentation of errors encountered during lab setup and practical solutions
+- **Shared Folder Lab**  
+  - [`Shared Folder Lab/shared-folder.md`](Shared-Folder/shared-folder.md) -Setup and configuration of a network shared folder in Windows Server 2022, integrated with Active Directory. Covers folder creation, NTFS and share permissions, mapped drives for clients, and troubleshooting access issues. 
+  - Screenshots: [`Shared-Folder/screenshots`](Shared-Folder/screenshots)
   
 ---
 
@@ -43,6 +47,8 @@ All labs are documented with Markdown files and screenshots for clarity and port
 - Windows Server and Windows 11 administration  
 - Ubuntu server installation and Linux administration  
 - Network setup, IP addressing, and connectivity testing  
+- Shared folder and permission management  
+- Troubleshooting and incident reporting  
 - Documentation and portfolio organization
 
 ---
@@ -59,6 +65,13 @@ All labs are documented with Markdown files and screenshots for clarity and port
 ├─ 📂 group-policy
 │   ├─ 📄 Company-Security-Policy.md
 │   └─ 📂 screenshots
-└─ 📂 troubleshooting
-    └─ 📄 errors.md
+├─ 📂 troubleshooting
+│   └─ 📄 errors.md
+├─ 📂 IT-Support-Troubleshooting
+│   └─ 📂 Scenario-1-Domain-Login-Failure
+│       ├─ 📄 Incident-Report-Domain-Login-Failure.md
+│       └─ 📂 screenshots
+└─ 📂 Shared-Folder
+    ├─ 📄 shared-folder.md
+    └─ 📂 screenshots
 

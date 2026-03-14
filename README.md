@@ -34,7 +34,7 @@ All labs are documented with Markdown files and screenshots for clarity and port
     - [`IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/incident-report-domain-login-failure.md`](IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/incident-report-domain-login-failure.md) -Incident where a domain user could not log in due to a disabled account. Covers troubleshooting in Active Directory, Event Viewer analysis, account restoration, and verification of successful login. 
     - Screenshots: [`IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/screenshots`](IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/screenshots) 
 - **Troubleshooting & Common Errors**  
-  - [`troubleshooting/errors.md`](troubleshooting/errors.md) – Documentation of errors encountered during lab setup and practical solutions
+  - [`Troubleshooting/errors.md`](Troubleshooting/errors.md) – Documentation of errors encountered during lab setup and practical solutions
 - **Shared Folder Lab**  
   - [`Shared Folder Lab/shared-folder.md`](Shared-Folder/shared-folder.md) -Setup and configuration of a network shared folder in Windows Server 2022, integrated with Active Directory. Covers folder creation, NTFS and share permissions, mapped drives for clients, and troubleshooting access issues. 
   - Screenshots: [`Shared-Folder/screenshots`](Shared-Folder/screenshots)

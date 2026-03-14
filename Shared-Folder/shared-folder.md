@@ -18,7 +18,7 @@ The lab is designed for hands-on practice in **IT support, network file sharing,
 | Client             | Windows 11 VM           |
 | Domain             | corp.local              |
 | Shared Folder Name | Shared_IT        |
-| User Account       | ITSupport (domain user) |
+| User Account       | it.support (domain user) |
 
 ---
 

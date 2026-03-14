@@ -80,6 +80,27 @@ This document contains errors encountered during the setup and configuration of 
 
 ---
 
+## 6. Domain Login Failure – Client Access Issues
+
+### Problem: Login still allowed after disabling account
+**Cause:** The Windows 11 client initially allowed login because the local account was used instead of the domain account, or cached credentials were active.  
+**Solution:**  
+- Ensure the user attempts login with the domain account.  
+- Sign out and clear cached credentials if necessary.
+
+### Problem: Event Viewer access denied
+**Cause:** Standard users do not have permission to read the Security log; administrative rights were required to view authentication failures.  
+**Solution:**  
+- Log in with an account that has administrative privileges.  
+- Open Event Viewer to check authentication logs.
+
+### Problem: Event log did not appear on Domain Controller
+**Cause:** Failed login attempts from a disabled account may not always be logged on the DC immediately; sometimes only the client logs the failure.  
+**Solution:**  
+- Check both client and DC logs.  
+- Ensure DC replication and log settings are correct.
+
+
 ## Notes
 
 This troubleshooting documentation will be updated over time as more errors are encountered and resolved. It demonstrates the ability to **identify, analyze, and fix system issues** in a professional IT lab environment.

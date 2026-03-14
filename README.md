@@ -69,7 +69,7 @@ All labs are documented with Markdown files and screenshots for clarity and port
 │   └─ 📄 errors.md
 ├─ 📂 IT-Support-Troubleshooting
 │   └─ 📂 Scenario-1-Domain-Login-Failure
-│       ├─ 📄 Incident-Report-Domain-Login-Failure.md
+│       ├─ 📄 incident-report-domain-login-failure.md
 │       └─ 📂 screenshots
 └─ 📂 Shared-Folder
     ├─ 📄 shared-folder.md

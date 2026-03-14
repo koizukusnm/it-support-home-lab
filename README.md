@@ -31,7 +31,7 @@ All labs are documented with Markdown files and screenshots for clarity and port
   - Screenshots: [`group-policy/screenshots/`](group-policy/screenshots/)
 - **IT Support Troubleshooting**  
   - **Scenario 1 – Domain Login Failure:**
-    - [`IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure`](IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/) -Incident where a domain user could not log in due to a disabled account. Covers troubleshooting in Active Directory, Event Viewer analysis, account restoration, and verification of successful login. 
+    - [`IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/incident-report-domain-login-failure.md`](IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/incident-report-domain-login-failure.md) -Incident where a domain user could not log in due to a disabled account. Covers troubleshooting in Active Directory, Event Viewer analysis, account restoration, and verification of successful login. 
     - Screenshots: [`IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/screenshots`](IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/screenshots) 
 - **Troubleshooting & Common Errors**  
   - [`troubleshooting/errors.md`](troubleshooting/errors.md) – Documentation of errors encountered during lab setup and practical solutions

@@ -60,7 +60,7 @@ Domain authentication was verified, and the user was able to access the workstat
 ## Evidence (Screenshots)
 
 All screenshots for this scenario are stored in the **Scenario 1 folder**:  
-[IT-Support-Troubleshooting/Screenshot Folder – Domain Login Failure](IT-Support-Troubleshooting/Scenario-1-Domain-Login-Failure/)
+[`screenshots/`](screenshots/)
 
 ---
 

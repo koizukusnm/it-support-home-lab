@@ -10,16 +10,16 @@ The lab includes a domain controller, client machine, and Linux server connected
 | Machine | Operating System | Role | IP Address | Services |
 |--------|-----------------|------|-----------|----------|
 | Host Machine | Windows 11 | Virtualization Host | - | VMware Workstation |
-| Windows Server | Windows Server 2022 | Domain Controller | 192.168.10.10 | Active Directory, DNS |
-| Windows 11 Client | Windows 11 | Domain User Workstation | 192.168.10.20 | Domain Login Testing |
-| Ubuntu Server | Ubuntu 24.04 LTS | Linux Administration Practice | 192.168.10.30 | SSH, Linux Management |
+| Windows Server | Windows Server 2022 | Domain Controller | 192.168.126.10 | Active Directory, DNS |
+| Windows 11 Client | Windows 11 | Domain User Workstation | 192.168.126.100 | Domain Login Testing |
+| Ubuntu Server | Ubuntu 24.04 LTS | Linux Administration Practice | 192.168.126.111 | SSH, Linux Management |
 
 
 ```mermaid
 graph TD
-A[Host Machine - Windows 11] --> B[Windows Server 2022<br>192.168.10.10<br>AD + DNS]
-A --> C[Windows 11 Client<br>192.168.10.20]
-A --> D[Ubuntu 24.04 Server<br>192.168.10.30]
+A[Host Machine - Windows 11] --> B[Windows Server 2022<br>192.168.126.10<br>AD + DNS]
+A --> C[Windows 11 Client<br>192.168.126.100]
+A --> D[Ubuntu 24.04 Server<br>192.168.126.111]
 ```
 
 All virtual machines communicate within the same VMware virtual network.
@@ -29,17 +29,17 @@ All virtual machines communicate within the same VMware virtual network.
 | Component | Configuration |
 |-----------|---------------|
 |Network Type| VMware NAT / Host-Only |
-| Subnet | 192.168.10.0/24 |
-| Gateway | 192.168.10.1 |
+| Subnet | 192.168.126.0/24 |
+| Gateway | 192.168.126.2 |
 | DNS Server | 192.168.10.10 (Windows Server) |
 
 4. IP Address Allocation
 
 | Device | IP Address | Function |
 |--------|------------|----------|
-| Windows Server | 192.168.10.10| Domain Controller & DNS |
-| Windows Client | 192.168.10.20| Domain-joined workstation |
-| Ubuntu Server | 192.168.10.30	| Linux server |
+| Windows Server | 192.168.126.10| Domain Controller & DNS |
+| Windows Client | 192.168.126.20| Domain-joined workstation |
+| Ubuntu Server | 192.168.126.111	| Linux server |
 
 Static IP addressing is used to ensure consistent communication between servers and clients.
 
@@ -60,10 +60,10 @@ The Windows 11 client machine is joined to the domain for centralized authentica
 
 Examples:
   Ping test from Windows client to server:
-  ping 192.168.10.10
+  ping 192.168.126.10
 
   Ping test from Ubuntu to Windows client:
-  ping 192.168.10.20
+  ping 192.168.126.111
   
 Successful responses confirm that all machines can communicate within the virtual network.
 
@@ -81,5 +81,3 @@ Future improvements may include firewall configuration and network monitoring to
       -Implementing SIEM monitoring
       -Simulating attack scenarios for security testing
       
-Virtual Home Lab Network Image:
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5c530f3b-f7b9-40d6-b406-65bc925f4339" />

@@ -55,7 +55,7 @@ Shared_IT/
 
 ## Evidence (Screenshots)
 
-All screenshots are stored in the **[`screenshots folder`](Shared-Folder/screenshots)** inside this project. 
+All screenshots are stored in the **[`screenshots/`](screenshots/)** inside this project. 
 
 ---
 

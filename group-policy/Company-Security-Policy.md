@@ -30,7 +30,7 @@ The GPO is linked to the IT OU and applied to all Windows 11 clients in the doma
 - Account lockout and password complexity policies are enforced  
 - Policies verified using `rsop.msc` and `gpresult /r`  
 
-**Screenshots folder:** [group-policy/screenshots](group-policy/screenshots)  
+**Screenshots folder:** [`screenshots/`](screenshots/)
 
 
 ## Skills Demonstrated

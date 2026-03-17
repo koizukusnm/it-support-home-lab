@@ -50,9 +50,10 @@ All labs are documented with Markdown files and screenshots for clarity and port
 - Windows Server and Windows 11 administration  
 - Ubuntu server installation and Linux administration  
 - Network setup, IP addressing, and connectivity testing  
-- Shared folder and permission management  
-- Troubleshooting and incident reporting  
-- Documentation and portfolio organization
+- Documentation and portfolio organization  
+- IT support troubleshooting scenarios (Domain login failure, Remote Desktop support, Windows Update troubleshooting)  
+- Shared folder setup and permission management (NTFS and Share permissions, mapped drives, access testing)  
+- Incident reporting and problem resolution documentation
 
 ---
 

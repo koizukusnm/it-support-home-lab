@@ -63,7 +63,7 @@ After applying updates, I confirmed that the system was fully up to date. The us
 
 All screenshots are stored in:
 
-**Screenshots folder:**[`screenshots/`](IT-Support-Troubleshooting/Scenario-2-Remote-Support/screenshots/)
+**Screenshots folder:**[`screenshots/`](screenshots/)
 
 ---
 
